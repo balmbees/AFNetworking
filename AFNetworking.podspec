@@ -81,5 +81,8 @@ EOS
     ss.platform = :ios
     ss.dependency 'AFNetworking/NSURLConnection'
     ss.dependency 'AFNetworking/NSURLSession'
+    
+    ss.public_header_files = 'UIKit+AFNetworking/*.h'	
+    ss.source_files = 'UIKit+AFNetworking'
   end
 end
